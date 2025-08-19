@@ -1,239 +1,153 @@
-# ArchitectUI React Bootstrap Admin Dashboard Template (FREE)
+# MİYOP - Mutlukent İş Yönetim Paneli
 
-**React 19 Compatible** - A modern, responsive admin dashboard template built with React 19, Bootstrap 5, and comprehensive component library.
+Modern React tabanlı yönetim paneli uygulaması. ArchitectUI template'i kullanılarak geliştirilmiştir.
 
-![ArchitectUI Bootstrap 5 ReactJS Theme FREE](https://colorlib.com/wp/wp-content/uploads/sites/2/architectui-react-free.jpg)
+## 🚀 Özellikler
 
-## Overview
+- **Modern React 18** - En güncel React özellikleri
+- **Supabase Backend** - Güçlü ve ölçeklenebilir backend
+- **Rol Bazlı Yetkilendirme** - Güvenli erişim kontrolü
+- **Responsive Tasarım** - Tüm cihazlarda mükemmel görünüm
+- **Modern UI/UX** - Kullanıcı dostu arayüz
+- **TypeScript Desteği** - Tip güvenliği (opsiyonel)
 
-ArchitectUI React is a feature-rich, free admin dashboard template designed for modern web applications. Built with the latest React 19 and Bootstrap 5, it provides a solid foundation for creating professional admin panels, dashboards, and web applications.
+## 📋 Gereksinimler
 
-This template offers clean, responsive design with a comprehensive set of UI components, charts, forms, and layout options. Perfect for startups, enterprises, and developers looking for a production-ready admin dashboard solution.
+- Node.js 16+ 
+- npm veya yarn
+- Supabase hesabı
 
-## Key Features
+## 🛠️ Kurulum
 
-### Core Technologies
-- **React 19.1.0** - Latest React with improved performance and features
-- **Bootstrap 5.3.7** - Modern CSS framework with utilities
-- **Redux Toolkit** - State management
-- **React Router v7** - Navigation and routing
-- **Sass/SCSS** - Advanced styling capabilities
-
-### UI Components
-- **30+ Ready-to-use Components** - Forms, tables, charts, modals, and more
-- **Multiple Dashboard Layouts** - Analytics, CRM, Commerce, Sales, and Minimal
-- **Advanced Form Elements** - Date pickers, file uploads, text editors, sliders
-- **Data Visualization** - ApexCharts, Chart.js, Recharts integration
-- **Interactive Maps** - Google Maps and Vector Maps support
-- **Responsive Design** - Mobile-first approach with all device compatibility
-
-### Layout Options
-- **Flexible Sidebar** - Collapsible with custom themes
-- **Header Variations** - Multiple header styles and configurations
-- **Footer Components** - Fixed and dynamic footer options
-- **Theme Customization** - 9 pre-built color schemes
-- **Dark Mode Support** - Professional dark theme option
-
-## Quick Start
-
-### Prerequisites
-
-- **Node.js** (LTS version) - [Download here](https://nodejs.org/en/download/)
-- **npm** or **yarn** package manager
-
-### Installation
-
-1. **Clone or Download** the repository
-   ```bash
-   git clone https://github.com/DashboardPack/architectui-react-theme-free.git
-   cd architectui-react-theme-free
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start Development Server**
-   ```bash
-   npm start
-   ```
-   
-   The application will open in your browser at `http://localhost:3001`
-
-### Build for Production
-
-1. **Create Production Build**
-   ```bash
-   npm run build
-   ```
-
-2. **Serve Production Build Locally**
-   ```bash
-   npx serve -s build -l 4000
-   ```
-   
-   View the production build at `http://localhost:4000`
-
-## Project Structure
-
-```
-architectui-react-theme-free/
-├── public/                 # Static files
-├── src/
-│   ├── assets/            # Styles, images, and static assets
-│   ├── components/        # Reusable UI components
-│   ├── DemoPages/         # Demo pages and examples
-│   │   ├── Dashboards/    # Dashboard variations
-│   │   ├── Components/    # UI component examples
-│   │   ├── Forms/         # Form examples
-│   │   └── Tables/        # Table examples
-│   ├── Layout/            # Layout components
-│   │   ├── AppHeader/     # Header components
-│   │   ├── AppSidebar/    # Sidebar components
-│   │   └── AppFooter/     # Footer components
-│   └── reducers/          # Redux store configuration
-├── config-overrides.js   # Webpack configuration
-└── package.json          # Dependencies and scripts
+1. **Projeyi klonlayın:**
+```bash
+git clone <repository-url>
+cd mutlukent-miyop
 ```
 
-## Available Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm start` | Start development server (port 3001) |
-| `npm run build` | Create production build |
-| `npm test` | Run test suite |
-| `npm run eject` | Eject from Create React App (not recommended) |
-
-## Browser Support
-
-ArchitectUI React supports all modern browsers:
-
-- **Chrome** (latest)
-- **Firefox** (latest)
-- **Safari** (latest)
-- **Edge** (latest)
-- **Opera** (latest)
-
-## Customization
-
-### Theme Colors
-Customize the color scheme by modifying the Sass variables in:
-- `src/assets/themes/[theme-name]/_variables.scss`
-
-### Layout Configuration
-Adjust layout settings in:
-- `src/reducers/ThemeOptions.js`
-
-### Adding New Components
-Follow the existing component structure in:
-- `src/DemoPages/Components/`
-
-## Available Versions
-
-ArchitectUI is available in multiple frameworks:
-
-| Framework | Repository | Status |
-|-----------|------------|---------|
-| **React** | [Free Version](https://github.com/DashboardPack/architectui-react-theme-free) | ✅ Active |
-| **Vue.js** | [Vue Version](https://dashboardpack.com/theme-details/architectui-dashboard-vue-pro/) | ✅ Available |
-| **Angular** | [Angular Version](https://dashboardpack.com/theme-details/architectui-angular-7-bootstrap-material-design-pro?v=7516fd43adaa) | ✅ Available |
-| **HTML/jQuery** | [HTML Version](https://dashboardpack.com/theme-details/architectui-dashboard-html-pro) | ✅ Available |
-
-## Professional Version
-
-Upgrade to **ArchitectUI React PRO** for additional features:
-
-- **150+ Premium Components**
-- **Advanced Dashboard Layouts**
-- **Premium Chart Libraries**
-- **Extended Form Elements**
-- **Professional Support**
-- **Regular Updates**
-- **Commercial License**
-
-[**Get PRO Version →**](https://dashboardpack.com/theme-details/architectui-dashboard-react-pro)
-
-## Resources & Templates
-
-### Discover More Templates
-
-**DashboardPack.com** - Premium admin dashboard templates
-- React, Vue, Angular, and HTML versions
-- Professional support and documentation
-- Regular updates and new features
-- [Browse Templates](https://dashboardpack.com/)
-
-**Colorlib.com** - Free web templates and themes
-- Hundreds of free templates
-- Various categories: admin, landing, blog, portfolio
-- High-quality designs for every project
-- [Explore Free Templates](https://colorlib.com/)
-
-## Technical Details
-
-### Dependencies
-- **UI Framework**: Bootstrap 5.3.7, Reactstrap 9.2.3
-- **Charts**: ApexCharts 4.7.0, Chart.js 4.4.7, Recharts 2.13.3
-- **Icons**: FontAwesome 6.7.2, React Icons 5.4.0
-- **Forms**: React Hook Form, React Select, React Datepicker
-- **Animations**: Framer Motion 12.19.1, React Animations
-- **State Management**: Redux Toolkit 2.8.2
-- **Build Tools**: React App Rewired, Sass 1.89.2
-
-### Performance Features
-- **Code Splitting** - Automatic route-based code splitting
-- **Tree Shaking** - Eliminate unused code
-- **Optimized Builds** - Minified and compressed assets
-- **Lazy Loading** - Components load on demand
-
-## Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2023 DashboardPack
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
+2. **Bağımlılıkları yükleyin:**
+```bash
+npm install
 ```
 
-## Support & Community
+3. **Environment değişkenlerini ayarlayın:**
+```bash
+cp .env.example .env.local
+```
 
-### Get Help
-- **Documentation**: Comprehensive guides and examples included
-- **GitHub Issues**: Report bugs and request features
-- **Community**: Join our developer community
+`.env.local` dosyasını düzenleyerek Supabase bilgilerinizi ekleyin:
+```env
+REACT_APP_SUPABASE_URL=your_supabase_project_url
+REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-### Stay Updated
-- **GitHub**: Star the repository for updates
-- **DashboardPack**: Follow for new template releases
-- **Changelog**: Check [CHANGELOG.md](Changelog.md) for version history
+4. **Uygulamayı başlatın:**
+```bash
+npm start
+```
 
-## Credits
+Uygulama http://localhost:3000 adresinde çalışacaktır.
 
-**Developed by**: [DashboardPack.com](https://dashboardpack.com/)  
-**Design**: Professional UI/UX team  
-**Maintained by**: Open source community  
+## 🗄️ Supabase Kurulumu
 
----
+1. [Supabase](https://supabase.com) hesabı oluşturun
+2. Yeni proje oluşturun
+3. SQL Editor'de aşağıdaki tabloları oluşturun:
 
-**Made with care for the developer community**
+### Profiles Tablosu
+```sql
+CREATE TABLE profiles (
+  id UUID REFERENCES auth.users(id) PRIMARY KEY,
+  full_name TEXT,
+  avatar_url TEXT,
+  role TEXT DEFAULT 'user' CHECK (role IN ('admin', 'manager', 'user')),
+  permissions TEXT[] DEFAULT '{}',
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
 
-[Website](https://dashboardpack.com/) • [Templates](https://dashboardpack.com/) • [Support](https://dashboardpack.com/contact/) • [Free Resources](https://colorlib.com/)
+-- RLS (Row Level Security) etkinleştirin
+ALTER TABLE profiles ENABLE ROW LEVEL SECURITY;
+
+-- Politikalar
+CREATE POLICY "Users can view own profile" ON profiles
+  FOR SELECT USING (auth.uid() = id);
+
+CREATE POLICY "Users can update own profile" ON profiles
+  FOR UPDATE USING (auth.uid() = id);
+
+CREATE POLICY "Admins can view all profiles" ON profiles
+  FOR SELECT USING (
+    EXISTS (
+      SELECT 1 FROM profiles WHERE id = auth.uid() AND role = 'admin'
+    )
+  );
+```
+
+## 📁 Proje Yapısı
+
+```
+src/
+├── components/          # React bileşenleri
+│   ├── auth/           # Kimlik doğrulama bileşenleri
+│   ├── dashboard/      # Dashboard bileşenleri
+│   └── common/         # Ortak bileşenler
+├── contexts/           # React Context'leri
+├── lib/               # Yardımcı kütüphaneler
+├── hooks/             # Custom React hooks
+├── utils/             # Yardımcı fonksiyonlar
+└── styles/            # CSS dosyaları
+```
+
+## 🔐 Kimlik Doğrulama
+
+Sistem şu özellikleri destekler:
+- Email/şifre ile giriş
+- Rol bazlı yetkilendirme
+- Oturum yönetimi
+- Güvenli çıkış
+
+## 🎨 Tasarım Sistemi
+
+- **Renkler:** Modern gradient ve flat renkler
+- **Tipografi:** Sistem fontları
+- **Bileşenler:** Styled-components ile oluşturulmuş
+- **Responsive:** Mobile-first yaklaşım
+
+## 📱 Responsive Tasarım
+
+- Desktop (1200px+)
+- Tablet (768px - 1199px)
+- Mobile (320px - 767px)
+
+## 🚀 Production Build
+
+```bash
+npm run build
+```
+
+Build dosyaları `build/` klasöründe oluşturulacaktır.
+
+## 🧪 Test
+
+```bash
+npm test
+```
+
+## 📝 Lisans
+
+Bu proje özel kullanım için geliştirilmiştir.
+
+## 🤝 Katkıda Bulunma
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Commit yapın (`git commit -m 'Add amazing feature'`)
+4. Push yapın (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## 📞 İletişim
+
+Proje Sahibi - [@mutlukent](https://github.com/mutlukent)
+
+Proje Linki: [https://github.com/mutlukent/mutlukent-miyop](https://github.com/mutlukent/mutlukent-miyop)

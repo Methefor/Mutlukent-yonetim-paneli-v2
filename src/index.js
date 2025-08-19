@@ -1,40 +1,16 @@
-import "./polyfills";
-import React from "react";
-import { createRoot } from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
 
-import * as serviceWorker from "./serviceWorker";
-
-import { HashRouter } from "react-router-dom";
-import "./assets/base.scss";
-import Main from "./DemoPages/Main";
-import configureAppStore from "./config/configureStore";
-import { Provider } from "react-redux";
-
-const store = configureAppStore();
-const rootElement = document.getElementById("root");
-
-const renderApp = (Component) => (
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <HashRouter
-        future={{
-          v7_startTransition: true,
-          v7_relativeSplatPath: true
-        }}
-      >
-        <Component />
-      </HashRouter>
-    </Provider>
+    <App />
   </React.StrictMode>
-);
+)
 
-const root = createRoot(rootElement);
-root.render(renderApp(Main));
-
-if (module.hot) {
-  module.hot.accept("./DemoPages/Main", () => {
-    const NextApp = require("./DemoPages/Main").default;
-    root.render(renderApp(NextApp));
-  });
-}
-serviceWorker.unregister();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals()
